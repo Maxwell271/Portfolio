@@ -1,0 +1,102 @@
+@font-face {
+	font-family: 'mostin';
+	src: local('mostin'), url('../fonts/MostinRegular-516lZ.otf') format('otf');
+}
+
+@font-face {
+	font-family: 'open sans';
+	src: local('open sans'), url('../fonts/MostinRegular-516lZ.otf') format('otf');
+}
+
+:root {
+	--color-text-1: #000000;
+	--color-text-2: #ffffff;
+	--color-text-3: #00a2ff;
+	--color-background-1: #000000;
+	--color-background-2: #ffffff;
+	--color-background-3: #202020;
+}
+
+* {
+	box-sizing: border-box;
+	font-family: 'mostin';
+	font-weight: normal;
+    margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: var(--color-text-2);
+}
+
+h1 {
+	font-size: 4em;
+	font-weight: normal;
+	color: var(--color-text-1)
+}
+
+h1 strong {
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 3em;
+	color: var(--color-text-1)
+}
+
+h3 {
+	font-size: 2em;
+	color: var(--color-text-1)
+}
+
+p {
+	font-size: 1em;
+	color: var(--color-text-1)
+}
+
+body {
+    background-color: var(--color-background-2);
+}
+
+main {
+	padding: 6em;
+    margin-left: 16em;
+    background-color: var(--color-background-2);
+    max-width: 120em;
+}
+
+
+/*/////////////////////// PAGINA 1: HOME ///////////////////////*/
+
+/* HEADRER */
+
+header {
+    position: fixed;
+	display: flex;
+    top: 0;
+    left: 0;
+    width: 16em;
+    height: 100%;
+    background-color: var(--color-background-1);
+	flex-direction: column;
+    justify-content: space-between;
+}
+
+nav {
+	margin-left: 1em;
+}
+
+nav ul {
+	line-height: 2.5em;
+}
+
+nav li {
+	font-size: 1.5em;
+}
+
+
+
+
+/* SECTION 1 */
+
